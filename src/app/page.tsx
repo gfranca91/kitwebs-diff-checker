@@ -97,41 +97,64 @@ export default function Home() {
         </div>
       )}
 
-      <section className="container mx-auto mt-12 text-gray-400 prose prose-invert prose-lg max-w-none">
-        <h2>O que é um Diff Checker?</h2>
-        <p>
-          Um comparador de diferenças (Diff Checker) é uma ferramenta que
-          analisa dois conjuntos de texto e destaca as mudanças entre eles. É
-          uma funcionalidade essencial para programadores, escritores e qualquer
-          pessoa que precise rastrear alterações entre duas versões de um mesmo
-          documento.
-        </p>
+      <section className="container mx-auto mt-16 max-w-4xl">
+        <h2 className="text-3xl font-bold text-center text-white mb-8">
+          Tudo Sobre o Diff Checker
+        </h2>
 
-        <h2>Como Usar Esta Ferramenta?</h2>
-        <ol>
-          <li>
-            <strong>Cole o Texto Original:</strong> Na caixa da esquerda, cole a
-            primeira versão do seu texto ou código.
-          </li>
-          <li>
-            <strong>Cole o Texto Modificado:</strong> Na caixa da direita, cole
-            a versão atualizada do texto.
-          </li>
-          <li>
-            <strong>Compare:</strong> Clique no botão para iniciar a comparação.
-          </li>
-          <li>
-            <strong>Analise o Resultado:</strong> A ferramenta exibirá uma
-            visualização unificada, onde linhas removidas são destacadas em
-            vermelho (-), linhas adicionadas em verde (+), e as inalteradas
-            permanecem com o fundo padrão.
-          </li>
-        </ol>
-        <p>
-          Esta ferramenta roda 100% no seu navegador, garantindo que seus dados
-          permaneçam privados e seguros. Nenhuma informação é enviada para
-          nossos servidores.
-        </p>
+        <div className="space-y-8">
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-2">
+              O que é um Diff Checker?
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Um comparador de diferenças (Diff Checker) é uma ferramenta que
+              analisa dois conjuntos de texto e destaca as mudanças entre eles.
+              É uma funcionalidade essencial para programadores, escritores e
+              qualquer pessoa que precise rastrear alterações entre duas versões
+              de um mesmo documento.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-2">
+              Como Usar Esta Ferramenta?
+            </h3>
+            <div className="text-gray-400 leading-relaxed">
+              <ol className="list-decimal list-inside space-y-2">
+                <li>
+                  <strong>Cole o Texto Original:</strong> Na caixa da esquerda,
+                  cole a primeira versão do seu texto ou código.
+                </li>
+                <li>
+                  <strong>Cole o Texto Modificado:</strong> Na caixa da direita,
+                  cole a versão atualizada do texto.
+                </li>
+                <li>
+                  <strong>Compare:</strong> Clique no botão para iniciar a
+                  comparação.
+                </li>
+                <li>
+                  <strong>Analise o Resultado:</strong> A ferramenta exibirá uma
+                  visualização unificada, onde linhas removidas são destacadas
+                  em vermelho (-), linhas adicionadas em verde (+), e as
+                  inalteradas permanecem com o fundo padrão.
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-2">
+              É seguro usar esta ferramenta?
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Sim. Esta ferramenta roda 100% no seu navegador, garantindo que
+              seus dados permaneçam privados e seguros. Nenhuma informação que
+              você cola nas caixas de texto é enviada para nossos servidores.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   );
