@@ -100,31 +100,31 @@ export default function Home() {
       <section className="container mx-auto mt-12 text-gray-400 prose prose-invert prose-lg max-w-none">
         <h2>O que é um Diff Checker?</h2>
         <p>
-          Um "Diff Checker" (ou comparador de diferenças) é uma ferramenta que
-          compara dois conjuntos de texto e destaca as diferenças entre eles. É
-          uma funcionalidade essencial para programadores, escritores, editores
-          e qualquer pessoa que precise rastrear alterações entre duas versões
-          de um documento.
+          Um comparador de diferenças (Diff Checker) é uma ferramenta que
+          analisa dois conjuntos de texto e destaca as mudanças entre eles. É
+          uma funcionalidade essencial para programadores, escritores e qualquer
+          pessoa que precise rastrear alterações entre duas versões de um mesmo
+          documento.
         </p>
 
         <h2>Como Usar Esta Ferramenta?</h2>
         <ol>
           <li>
             <strong>Cole o Texto Original:</strong> Na caixa da esquerda, cole a
-            versão inicial do seu texto ou código.
+            primeira versão do seu texto ou código.
           </li>
           <li>
             <strong>Cole o Texto Modificado:</strong> Na caixa da direita, cole
-            a versão nova ou atualizada do texto.
+            a versão atualizada do texto.
           </li>
           <li>
-            <strong>Compare:</strong> Clique no botão "Comparar Textos".
+            <strong>Compare:</strong> Clique no botão para iniciar a comparação.
           </li>
           <li>
             <strong>Analise o Resultado:</strong> A ferramenta exibirá uma
-            visualização unificada abaixo, onde as linhas removidas são
-            destacadas em vermelho (`-`), as linhas adicionadas em verde (`+`),
-            e as inalteradas permanecem com o fundo padrão.
+            visualização unificada, onde linhas removidas são destacadas em
+            vermelho (-), linhas adicionadas em verde (+), e as inalteradas
+            permanecem com o fundo padrão.
           </li>
         </ol>
         <p>
